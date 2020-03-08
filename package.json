@@ -1,0 +1,40 @@
+{
+  "name": "express-mongo-jwt-auth-starter",
+  "version": "0.1.0",
+  "description": "Boilerplate Express.js/MongoDB server for authentication with JSON web tokens",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "jsonwebtoken",
+    "authentication",
+    "boilerplate"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "http": "0.0.0",
+    "http-errors": "^1.7.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.3",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
